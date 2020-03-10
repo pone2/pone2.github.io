@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>第一篇文章</title>
+    <url>/2020/03/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="bone2"><a href="#bone2" class="headerlink" title="bone2"></a>bone2</h1><h2 id="第一篇文章哦！！！"><a href="#第一篇文章哦！！！" class="headerlink" title="第一篇文章哦！！！"></a>第一篇文章哦！！！</h2><h3 id="这个是三级标题哦"><a href="#这个是三级标题哦" class="headerlink" title="这个是三级标题哦"></a>这个是三级标题哦</h3><a id="more"></a>
+
+<ul>
+<li>列表1</li>
+<li>列表2<br>  a 子列表<br>  b 子列表</li>
+<li>列表3</li>
+</ul>
+<hr>
+<hr>
+<p><a href="https://how2j.cn/" target="_blank" rel="noopener">java自学</a></p>
+<p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583602027099&di=8918869b512984398bfd5e2c59a3be28&imgtype=jpg&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-10%2F035833961.jpg" alt="bone2"></p>
+<p><em>字体是斜线的</em><br><strong>字体是加粗的</strong><br><code>&lt;html&gt;&lt;/html&gt;</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;titel&gt;woshibiaoti</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>我的内容是引用的哦</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JDBC快速入门</title>
+    <url>/2020/03/07/jdbc/</url>
+    <content><![CDATA[<h1 id="概念：JAVA-DATABase-connectivity-Java-数据库连接，java语言操作数据库"><a href="#概念：JAVA-DATABase-connectivity-Java-数据库连接，java语言操作数据库" class="headerlink" title="概念：JAVA DATABase connectivity Java 数据库连接，java语言操作数据库"></a>概念：JAVA DATABase connectivity Java 数据库连接，java语言操作数据库</h1><a id="more"></a>
+<p>JDBC本质：<br>    其实是官方定义的一套操作所有关系性数据库的规则，即接口。</p>
+<p>步骤以及代码实现：<br>1.导入驱动jsr包<br>2.注册驱动<br> Class.forName(“com.mysql.cj.jdbc.Driver”);<br>3.获取数据库连接对象<br> Connection conn = DriverManager.getConnection(“jdbc:mysql://localhost:3306/bank?serverTimezone=GMT%2B8 “,”root”,”123456”);//时差原因<br>4.定义sql语句<br>String sql = “update user set money = 5000 where id = 1”;<br>5.获取纸质sql对象，Statement<br>Statement stmt = conn.createStatement();<br>6.执行sql<br>int count = stmt.executeUpdate(sql);<br>7.处理结果<br>System.out.println(count);<br>8.释放资源<br> stmt.close();<br>conn.close();</p>
+<p>2.详解各个对象：<br>1.DriverManager：驱动管理对象<br>*功能：<br>    1.注册驱动：告诉程序该使用哪一个数据库驱动jar<br>        static void registerDriver(Driver driver) :注册与给定的驱动程序 DriverManager 。<br>        写代码使用：Class.forName(“com.mysql.cj.jdbc.Driver”);<br>        通过查看源码发现：在com.mysql.cj.jdbc.Driver类中存在静态代码块</p>
+<pre><code>  注意：mysql5之后的驱动jar包可以省略注册驱动的步骤
+2.获取数据库连接：
+    *方法：static Connection getConnection(String url, String user, String password)   
+        尝试建立与给定数据库URL的连接。 
+    *参数：
+        *url：指定连接的路径
+            *语法：jdbc:mysql://ip地址（域名）：端口号/数据库名称
+            *例子：Connection conn = DriverManager.getConnection(&quot;jdbc:mysql://localhost:3306/bank?serverTimezone=GMT%2B8 &quot;,&quot;root&quot;,&quot;123456&quot;);//时差原因
+            *细节：如果连接的是本机mysql服务器，并且mysql服务默认端口是3306，则url可以简写为：jdbc:mysql://数据库名称
+*user：用户名
+*passwo：密码</code></pre><p>2.Connection：数据库连接对象<br>    1.功能：<br>        1.获取执行sql的对象<br>        2.管理事务：<br>            <em>开启事务： setAutoCommit(boolean autoCommit)<br>            <em>提交事务：<br>            *回滚事务：<br>3.Statement：执行sql的对象<br>    1.执行sql<br>        1.int executeUpdate(String sql)  ：</em></em>执行DML（insert 、update、delete）语句**、ddt（create、alter、drop）语句<br>            *返回值：影响的行数，可以通过这个影响的行数判断dml语句是否执行成功<br>        2.ResultSet executeQuery(String sql)执行给定的SQL语句，该语句返回单个 ResultSet对象。</p>
+<p>4.ResulSt：结果集对象，封装查询结果<br>    *next():游标向下移动一行<br>    *boolean next():判断是否是最后一行<br>    *getXxx():获取数据<br>        *Xxx:代表数据类型 如 int getInt(),返回一个int类型<br>        *参数：<br>            1.int：代表类的标号，从1开始 如：getString（1）<br>            2.String：代码列的名称  如：getString（“”）<br>        *注意：<br>            *使用步骤：：<br>                1.游标向下移动一行<br>                2.判断是否有数据<br>                3.获取数据<br>5.preparedStatement：执行sql的对象</p>
+<p><a href="https://github.com/hjzCy/sql_node/blob/master/mysql/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md" target="_blank" rel="noopener">Mysql学习笔记</a><br><a href="https://www.bilibili.com/video/av39807944?from=search&seid=12969441586748736553" target="_blank" rel="noopener">mysql语句学习视频</a><br><a href="https://www.bilibili.com/video/av69882344?p=413" target="_blank" rel="noopener">mysql应用</a></p>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>JDBC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇文章</title>
+    <url>/2020/02/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/02/23/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+</search>

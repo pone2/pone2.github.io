@@ -22,19 +22,20 @@
     var CONFIG = {"hostname":"pylbone2.com","root":"/","scheme":"Gemini","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="概念：JAVA DATABase connectivity Java 数据库连接，java语言操作数据库">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://pylbone2.com/2020/02/23/hello-world/index.html">
+<meta property="og:title" content="JDBC快速入门">
+<meta property="og:url" content="http://pylbone2.com/2020/03/07/jdbc/index.html">
 <meta property="og:site_name" content="Bone2">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="概念：JAVA DATABase connectivity Java 数据库连接，java语言操作数据库">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-02-23T09:07:49.277Z">
-<meta property="article:modified_time" content="2020-02-23T09:07:49.278Z">
+<meta property="article:published_time" content="2020-03-07T14:29:04.000Z">
+<meta property="article:modified_time" content="2020-03-10T02:49:29.063Z">
 <meta property="article:author" content="彭运乐">
+<meta property="article:tag" content="JDBC">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://pylbone2.com/2020/02/23/hello-world/">
+<link rel="canonical" href="http://pylbone2.com/2020/03/07/jdbc/">
 
 
 <script id="page-configurations">
@@ -46,7 +47,7 @@
   };
 </script>
 
-  <title>Hello World | Bone2</title>
+  <title>JDBC快速入门 | Bone2</title>
   
 
 
@@ -186,7 +187,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://pylbone2.com/2020/02/23/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://pylbone2.com/2020/03/07/jdbc/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/IMG_5379(20200224-194914).JPG">
@@ -199,7 +200,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          JDBC快速入门
         </h1>
 
         <div class="post-meta">
@@ -209,7 +210,23 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-02-23 17:07:49" itemprop="dateCreated datePublished" datetime="2020-02-23T17:07:49+08:00">2020-02-23</time>
+              <time title="创建时间：2020-03-07 22:29:04" itemprop="dateCreated datePublished" datetime="2020-03-07T22:29:04+08:00">2020-03-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-10 10:49:29" itemprop="dateModified" datetime="2020-03-10T10:49:29+08:00">2020-03-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java%E8%87%AA%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">java自学</span></a>
+                </span>
             </span>
 
           <br>
@@ -218,14 +235,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>357</span>
+              <span>1.7k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -237,19 +254,23 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 id="概念：JAVA-DATABase-connectivity-Java-数据库连接，java语言操作数据库"><a href="#概念：JAVA-DATABase-connectivity-Java-数据库连接，java语言操作数据库" class="headerlink" title="概念：JAVA DATABase connectivity Java 数据库连接，java语言操作数据库"></a>概念：JAVA DATABase connectivity Java 数据库连接，java语言操作数据库</h1><a id="more"></a>
+<p>JDBC本质：<br>    其实是官方定义的一套操作所有关系性数据库的规则，即接口。</p>
+<p>步骤以及代码实现：<br>1.导入驱动jsr包<br>2.注册驱动<br> Class.forName(“com.mysql.cj.jdbc.Driver”);<br>3.获取数据库连接对象<br> Connection conn = DriverManager.getConnection(“jdbc:mysql://localhost:3306/bank?serverTimezone=GMT%2B8 “,”root”,”123456”);//时差原因<br>4.定义sql语句<br>String sql = “update user set money = 5000 where id = 1”;<br>5.获取纸质sql对象，Statement<br>Statement stmt = conn.createStatement();<br>6.执行sql<br>int count = stmt.executeUpdate(sql);<br>7.处理结果<br>System.out.println(count);<br>8.释放资源<br> stmt.close();<br>conn.close();</p>
+<p>2.详解各个对象：<br>1.DriverManager：驱动管理对象<br>*功能：<br>    1.注册驱动：告诉程序该使用哪一个数据库驱动jar<br>        static void registerDriver(Driver driver) :注册与给定的驱动程序 DriverManager 。<br>        写代码使用：Class.forName(“com.mysql.cj.jdbc.Driver”);<br>        通过查看源码发现：在com.mysql.cj.jdbc.Driver类中存在静态代码块</p>
+<pre><code>  注意：mysql5之后的驱动jar包可以省略注册驱动的步骤
+2.获取数据库连接：
+    *方法：static Connection getConnection(String url, String user, String password)   
+        尝试建立与给定数据库URL的连接。 
+    *参数：
+        *url：指定连接的路径
+            *语法：jdbc:mysql://ip地址（域名）：端口号/数据库名称
+            *例子：Connection conn = DriverManager.getConnection(&quot;jdbc:mysql://localhost:3306/bank?serverTimezone=GMT%2B8 &quot;,&quot;root&quot;,&quot;123456&quot;);//时差原因
+            *细节：如果连接的是本机mysql服务器，并且mysql服务默认端口是3306，则url可以简写为：jdbc:mysql://数据库名称
+*user：用户名
+*passwo：密码</code></pre><p>2.Connection：数据库连接对象<br>    1.功能：<br>        1.获取执行sql的对象<br>        2.管理事务：<br>            <em>开启事务： setAutoCommit(boolean autoCommit)<br>            <em>提交事务：<br>            *回滚事务：<br>3.Statement：执行sql的对象<br>    1.执行sql<br>        1.int executeUpdate(String sql)  ：</em></em>执行DML（insert 、update、delete）语句**、ddt（create、alter、drop）语句<br>            *返回值：影响的行数，可以通过这个影响的行数判断dml语句是否执行成功<br>        2.ResultSet executeQuery(String sql)执行给定的SQL语句，该语句返回单个 ResultSet对象。</p>
+<p>4.ResulSt：结果集对象，封装查询结果<br>    *next():游标向下移动一行<br>    *boolean next():判断是否是最后一行<br>    *getXxx():获取数据<br>        *Xxx:代表数据类型 如 int getInt(),返回一个int类型<br>        *参数：<br>            1.int：代表类的标号，从1开始 如：getString（1）<br>            2.String：代码列的名称  如：getString（“”）<br>        *注意：<br>            *使用步骤：：<br>                1.游标向下移动一行<br>                2.判断是否有数据<br>                3.获取数据<br>5.preparedStatement：执行sql的对象</p>
+<p><a href="https://github.com/hjzCy/sql_node/blob/master/mysql/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md" target="_blank" rel="noopener">Mysql学习笔记</a><br><a href="https://www.bilibili.com/video/av39807944?from=search&seid=12969441586748736553" target="_blank" rel="noopener">mysql语句学习视频</a><br><a href="https://www.bilibili.com/video/av69882344?p=413" target="_blank" rel="noopener">mysql应用</a></p>
 
     </div>
 
@@ -273,16 +294,22 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/JDBC/" rel="tag"># JDBC</a>
+          </div>
 
         
 
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2020/02/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" rel="next" title="我的第一篇文章">
-      我的第一篇文章 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/02/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" rel="prev" title="我的第一篇文章">
+      <i class="fa fa-chevron-left"></i> 我的第一篇文章
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/03/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" rel="next" title="第一篇文章">
+      第一篇文章 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -343,7 +370,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概念：JAVA-DATABase-connectivity-Java-数据库连接，java语言操作数据库"><span class="nav-number">1.</span> <span class="nav-text">概念：JAVA DATABase connectivity Java 数据库连接，java语言操作数据库</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
