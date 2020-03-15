@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第一篇文章</title>
-    <url>/2020/03/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h1 id="bone2"><a href="#bone2" class="headerlink" title="bone2"></a>bone2</h1><h2 id="第一篇文章哦！！！"><a href="#第一篇文章哦！！！" class="headerlink" title="第一篇文章哦！！！"></a>第一篇文章哦！！！</h2><h3 id="这个是三级标题哦"><a href="#这个是三级标题哦" class="headerlink" title="这个是三级标题哦"></a>这个是三级标题哦</h3><a id="more"></a>
+    <title>idea快捷键</title>
+    <url>/2020/03/07/idea%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<a id="more"></a>
 
-<ul>
-<li>列表1</li>
-<li>列表2<br>  a 子列表<br>  b 子列表</li>
-<li>列表3</li>
-</ul>
-<hr>
-<hr>
-<p><a href="https://how2j.cn/" target="_blank" rel="noopener">java自学</a></p>
-<p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583602027099&di=8918869b512984398bfd5e2c59a3be28&imgtype=jpg&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-10%2F035833961.jpg" alt="bone2"></p>
-<p><em>字体是斜线的</em><br><strong>字体是加粗的</strong><br><code>&lt;html&gt;&lt;/html&gt;</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;titel&gt;woshibiaoti</span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p>我的内容是引用的哦</p>
-</blockquote>
+<p>Ctrl＋E：显示最近编辑的文件列表<br>Ctrl＋F12：显示当前文件的结构<br>Ctrl＋P：显示方法的参数信息<br>Ctrl＋Alt＋T：可以将代码包在一块内，例如try/catch<br>Ctrl＋Alt＋V ：自动创建变量也就是=号前的变量定义<br>Ctrl+H：显示类结构图<br>Alt+回车：导入包自动修正<br>Ctrl＋F7：可以查询当前元素在当前文件中的引用，然后按F3可以选择<br>ALT+INSERT：生成get/set 实现接口等<br>Ctrl+X： 删除行<br>Ctrl+D： 复制行<br>Ctrl+Alt+L：  格式化代码</p>
 ]]></content>
       <categories>
         <category>java自学</category>
       </categories>
       <tags>
-        <tag>导航</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一笔糊涂账第一天</title>
+    <url>/2020/03/07/hutubill1/</url>
+    <content><![CDATA[<h1 id="功能一览"><a href="#功能一览" class="headerlink" title="功能一览"></a>功能一览</h1><pre><code>1.消费一览
+2.记一笔账
+3.消费分类管理
+4.月度消费报表
+5.设置预算和数据库路径
+6.备份数据
+7.恢复数据</code></pre>]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
         <tag>分享</tag>
       </tags>
   </entry>
@@ -58,9 +61,381 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇文章</title>
-    <url>/2020/02/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[]]></content>
+    <title>第一篇文章</title>
+    <url>/2020/03/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="bone2"><a href="#bone2" class="headerlink" title="bone2"></a>bone2</h1><h2 id="第一篇文章哦！！！"><a href="#第一篇文章哦！！！" class="headerlink" title="第一篇文章哦！！！"></a>第一篇文章哦！！！</h2><h3 id="这个是三级标题哦"><a href="#这个是三级标题哦" class="headerlink" title="这个是三级标题哦"></a>这个是三级标题哦</h3><a id="more"></a>
+
+<ul>
+<li>列表1</li>
+<li>列表2<br>  a 子列表<br>  b 子列表</li>
+<li>列表3</li>
+</ul>
+<hr>
+<hr>
+<p><a href="https://how2j.cn/" target="_blank" rel="noopener">java自学</a></p>
+<p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583602027099&di=8918869b512984398bfd5e2c59a3be28&imgtype=jpg&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-10%2F035833961.jpg" alt="bone2"></p>
+<p><em>字体是斜线的</em><br><strong>字体是加粗的</strong><br><code>&lt;html&gt;&lt;/html&gt;</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;titel&gt;woshibiaoti</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>我的内容是引用的哦</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>分享</tag>
+        <tag>导航</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>登录界面-1</title>
+    <url>/2020/03/07/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2-1/</url>
+    <content><![CDATA[<h1 id="1-大致思路"><a href="#1-大致思路" class="headerlink" title="1.大致思路"></a>1.大致思路</h1><a id="more"></a>
+<ul>
+<li>界面类Frame<br>1、开始编写显示初始登录界面的方法，首先形成初始登录界面的大致框架（设置大小、标题等）。</li>
+</ul>
+<p>2、设置布局（初学一般选择流式布局）。</p>
+<p>3、加组件。</p>
+<p>4、setvisible（true），使初始界面能显示出来。</p>
+<p>5、给组件加监听器。</p>
+<p>6、编写main函数，在main函数中用自写的Frame类创造对象，并用该对象调用刚刚所写的显示初始界面的方法。</p>
+<p>7、由于点击登录按钮后，登录成功或登录失败的结果都需要新的界面显示，找回密码的结果也需要新的界面显示，还需要在Frame类中多写几个显示不同界面的方法，便于不同情况下调用显示出不同的界面。</p>
+<ul>
+<li>监听器类<br>此监听器主要是针对界面中的各组件。每个界面中的组件分布不同，如果可以巧妙地求同存异，使得所有不同的界面可以通用一个监听器的话最好，但如果实在难以通用一个监听器的话，也可以考虑多写几个监听器类，每个类对应一个界面，从思路上会稍微简单一点。对于组件，需要用的监听器的有文本框（JTextField）、勾选框（JCheckBox）和按钮（JButton）。</li>
+</ul>
+<p>1、文本框（JTextField）<br>调用JTextField对象中的getText()方法可以监听并得到文本框中的内容，然后在监听器类中声明：如果此内容符合某种条件，则显示某种效果（比如显示登陆成功界面），如果不符合则显示另一种效果（比如显示登录失败界面）。</p>
+<p>2、勾选框（JCheckBox）<br>调用JCheckBox对象中的isSelected()方法可以监听此勾选框是否被选中。如果被选中，则在监听器类中声明要达到哪种效果。</p>
+<p>3、按钮（JButton）<br>JButton对象一旦加上监听器并被点击，监听器类中的actionPerformed(ActionEvent e)方法会被立即执行，因此只要将判断勾选框与文本框信息是否符合要求的代码统统写到该方法中，按下对应按钮后就能得到想要的结果。</p>
+<ul>
+<li>数据库</li>
+</ul>
+<p>1.建立一个table名为user的数据库，设置username为主键，设置password约束为非空。</p>
+<p>2.注册时就往里面增加数据，username不能重复，重复的时候会显示用户名已注册</p>
+<p>3.登录时，根据数据库已存在的数据判断，账号密码是否匹配。</p>
+<h1 id="2-具体代码"><a href="#2-具体代码" class="headerlink" title="2.具体代码"></a>2.具体代码</h1><p>界面类Frame：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">package chouqin;</span><br><span class="line"></span><br><span class="line">import com.sun.javaws.util.JfxHelper;</span><br><span class="line"></span><br><span class="line">import javax.swing.*;</span><br><span class="line">import java.awt.*;</span><br><span class="line">import java.io.*;</span><br><span class="line"></span><br><span class="line">public class Frame &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Frame frame &#x3D; new Frame();</span><br><span class="line">        frame.showMain();</span><br><span class="line">&#x2F;&#x2F;        File file &#x3D; new File(&quot;E:\\MyJavaWorkSpace\\qq登录界面\\weizhi.txt&quot;);</span><br><span class="line">&#x2F;&#x2F;        String x &#x3D; null;</span><br><span class="line">&#x2F;&#x2F;        String y &#x3D; null;</span><br><span class="line">&#x2F;&#x2F;        try(</span><br><span class="line">&#x2F;&#x2F;                FileReader fr&#x3D;new FileReader(file);</span><br><span class="line">&#x2F;&#x2F;                BufferedReader br&#x3D;new BufferedReader(fr);</span><br><span class="line">&#x2F;&#x2F;        )&#123;</span><br><span class="line">&#x2F;&#x2F;            x&#x3D;br.readLine();&#x2F;&#x2F;一开始txt文件为空</span><br><span class="line">&#x2F;&#x2F;            y&#x3D;br.readLine();&#x2F;&#x2F;第一行为x，第一行为y。为String格式。</span><br><span class="line">&#x2F;&#x2F;        &#125;catch (IOException e) &#123;</span><br><span class="line">&#x2F;&#x2F;            e.printStackTrace();</span><br><span class="line">&#x2F;&#x2F;        &#125;</span><br><span class="line">&#x2F;&#x2F;        if(x&#x3D;&#x3D;null&amp;&amp;y&#x3D;&#x3D;null) &#123;</span><br><span class="line">&#x2F;&#x2F;            frame.setLocation(200, 200);</span><br><span class="line">&#x2F;&#x2F;        &#125;else &#123;</span><br><span class="line">&#x2F;&#x2F;            frame.setLocation(Integer.valueOf(x),Integer.valueOf(y));</span><br><span class="line">&#x2F;&#x2F;        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void showMain() &#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;酬勤登录界面&quot;);           &#x2F;&#x2F;标题</span><br><span class="line">        jFrame.setSize(300, 300);                   &#x2F;&#x2F;大小</span><br><span class="line">        jFrame.setResizable(false);                             &#x2F;&#x2F;不准改变大小</span><br><span class="line"> &#x2F;&#x2F;       jFrame.setLocationRelativeTo(null);                     &#x2F;&#x2F;相对位置</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);                        &#x2F;&#x2F;EXIT_ON_CLOSE,直接关闭应用程序，System.exit(0)。一个main函数对应一整个程序</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        File file &#x3D; new File(&quot;E:\\MyJavaWorkSpace\\qq登录界面\\weizhi.txt&quot;);</span><br><span class="line">        String x &#x3D; null;</span><br><span class="line">        String y &#x3D; null;</span><br><span class="line">        try(</span><br><span class="line">                FileReader fr &#x3D; new FileReader(file);</span><br><span class="line">                BufferedReader br &#x3D; new BufferedReader(fr);</span><br><span class="line">        )&#123;</span><br><span class="line">            x&#x3D;br.readLine();&#x2F;&#x2F;一开始txt文件为空</span><br><span class="line">            y&#x3D;br.readLine();&#x2F;&#x2F;第一行为x，第一行为y。为String格式。</span><br><span class="line"></span><br><span class="line">        &#125;catch (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        if(x&#x3D;&#x3D;null&amp;&amp;y&#x3D;&#x3D;null) &#123;</span><br><span class="line">            jFrame.setLocation(200, 200);</span><br><span class="line">        &#125;else &#123;</span><br><span class="line">            jFrame.setLocation(Integer.valueOf(x),Integer.valueOf(y));</span><br><span class="line">        &#125;</span><br><span class="line">        Thread t&#x3D;new Thread() &#123;</span><br><span class="line">            public void run() &#123;</span><br><span class="line">                while(true) &#123;</span><br><span class="line">                    try(</span><br><span class="line">                            FileWriter fw&#x3D;new FileWriter(file);</span><br><span class="line">                            PrintWriter pw&#x3D;new PrintWriter(fw);</span><br><span class="line">                    )&#123;</span><br><span class="line">                        pw.println(jFrame.getX());</span><br><span class="line">                        pw.println(jFrame.getY());</span><br><span class="line">                        pw.flush();</span><br><span class="line">                        System.out.println(&quot;当前主窗体位置————x：&quot;</span><br><span class="line">                                + jFrame.getX() + &quot;  y：&quot; + jFrame.getY());</span><br><span class="line">                        try &#123;</span><br><span class="line">                            Thread.sleep(1000);</span><br><span class="line">                        &#125; catch (InterruptedException e) &#123;</span><br><span class="line">                            e.printStackTrace();</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125; catch (FileNotFoundException e) &#123;</span><br><span class="line">                        e.printStackTrace();</span><br><span class="line">                    &#125; catch (IOException e) &#123;</span><br><span class="line">                        e.printStackTrace();</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        t.start();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;设置流式布局</span><br><span class="line">        jFrame.setLayout(new FlowLayout());</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;加图片</span><br><span class="line">        ImageIcon imageIcon &#x3D; new ImageIcon(&quot;C:\\Users\\Bone\\Pictures\\u&#x3D;1905479539,1396941344&amp;fm&#x3D;26&amp;gp&#x3D;0.jpg&quot;);</span><br><span class="line">        JLabel jLabelimage &#x3D; new JLabel(imageIcon);</span><br><span class="line">        jLabelimage.setPreferredSize(new Dimension(300, 100));</span><br><span class="line">        jFrame.add(jLabelimage);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;加标签和对应文本框</span><br><span class="line">        JLabel jLabelzh &#x3D; new JLabel(&quot;账号&quot;);</span><br><span class="line">        JLabel jLabelmm &#x3D; new JLabel(&quot;密码&quot;);</span><br><span class="line">        JTextField jTextFieldzh &#x3D; new JTextField();</span><br><span class="line">        JTextField jTextFieldmm &#x3D; new JTextField();</span><br><span class="line">        jLabelzh.setPreferredSize(new Dimension(30, 30));</span><br><span class="line">        jLabelmm.setPreferredSize(new Dimension(30, 30));</span><br><span class="line">        jTextFieldzh.setPreferredSize(new Dimension(220, 30));</span><br><span class="line">        jTextFieldmm.setPreferredSize(new Dimension(220, 30));</span><br><span class="line">        jFrame.add(jLabelzh);</span><br><span class="line">        jFrame.add(jTextFieldzh);</span><br><span class="line">        jFrame.add(jLabelmm);</span><br><span class="line">        jFrame.add(jTextFieldmm);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;加勾选框</span><br><span class="line">        JCheckBox jCheckBox[] &#x3D; new JCheckBox[2];</span><br><span class="line">        String string[] &#x3D; &#123;&quot;自动登录&quot;, &quot;记住密码&quot;&#125;;</span><br><span class="line">        for (int i &#x3D; 0; i &lt; string.length; i++) &#123;</span><br><span class="line">            jCheckBox[i] &#x3D; new JCheckBox(string[i]);</span><br><span class="line">            jCheckBox[i].setPreferredSize(new Dimension(80, 30));</span><br><span class="line">            jFrame.add(jCheckBox[i]);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;加按钮</span><br><span class="line">        JButton jButton1 &#x3D; new JButton(&quot;找回密码&quot;);</span><br><span class="line">        JButton jButton2 &#x3D; new JButton(&quot;登录&quot;);</span><br><span class="line">        JButton jButton3 &#x3D; new JButton(&quot;注册&quot;);</span><br><span class="line">        jButton1.setPreferredSize(new Dimension(100, 30));</span><br><span class="line">        jButton2.setPreferredSize(new Dimension(60, 30));</span><br><span class="line">        jButton3.setPreferredSize(new Dimension(60, 30));</span><br><span class="line">        jFrame.add(jButton1);</span><br><span class="line">        jFrame.add(jButton2);</span><br><span class="line">        jFrame.add(jButton3);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;设置页面可见</span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;加监听器</span><br><span class="line">&#x2F;&#x2F;        DLlistener dLlisetener &#x3D; new DLlistener(jButton2, jTextFieldzh, jTextFieldmm, jCheckBox);</span><br><span class="line">&#x2F;&#x2F;        jButton2.addActionListener(dLlisetener);</span><br><span class="line">&#x2F;&#x2F;        jTextFieldzh.addActionListener(dLlisetener);</span><br><span class="line">&#x2F;&#x2F;        jTextFieldmm.addActionListener(dLlisetener);</span><br><span class="line">&#x2F;&#x2F;        jCheckBox[0].addActionListener(dLlisetener);</span><br><span class="line">&#x2F;&#x2F;        jCheckBox[1].addActionListener(dLlisetener);</span><br><span class="line">        jButton2.addActionListener(new DLlistener(jButton2, jTextFieldzh, jTextFieldmm, jCheckBox));</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;找回密码监听器</span><br><span class="line">        FBListener fbListener &#x3D; new FBListener(jButton1);</span><br><span class="line">        jButton1.addActionListener(fbListener);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;注册监听器</span><br><span class="line">        jButton3.addActionListener(new LoginListener(jButton3));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;设置登陆成功界面</span><br><span class="line">public void showSuccess() &#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;登陆成功&quot;);</span><br><span class="line">        jFrame.setSize(300,100);</span><br><span class="line">        jFrame.setResizable(false);</span><br><span class="line">        jFrame.setLocationRelativeTo(null);</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);</span><br><span class="line"></span><br><span class="line">        JLabel jLabel &#x3D; new JLabel(&quot;登录成功，开始酬勤&quot;);</span><br><span class="line">        jLabel.setPreferredSize(new Dimension(250,50));</span><br><span class="line">        jFrame.add(jLabel);</span><br><span class="line"></span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;设置登录失败界面</span><br><span class="line">    public void showFail()&#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;登录失败&quot;);</span><br><span class="line">        jFrame.setSize(300,150);</span><br><span class="line">        jFrame.setResizable(false);</span><br><span class="line">        jFrame.setLocationRelativeTo(null);</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);</span><br><span class="line"></span><br><span class="line">        JLabel jLabel &#x3D; new JLabel(&quot;账号或密码错误&quot;);</span><br><span class="line">        jLabel.setPreferredSize(new Dimension(250,50));</span><br><span class="line">        jFrame.add(jLabel);</span><br><span class="line"></span><br><span class="line">        JButton jButton &#x3D; new JButton(&quot;点击返回登录界面&quot;);</span><br><span class="line">        jButton.setPreferredSize(new Dimension(200,30));</span><br><span class="line">        jFrame.add(jButton);</span><br><span class="line"></span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line">        jButton.addActionListener(new BackListener(jButton));</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;设置找回密码界面</span><br><span class="line">    public void showfindm()&#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;找回密码&quot;);</span><br><span class="line">        jFrame.setSize(300,300);</span><br><span class="line">        jFrame.setResizable(false);</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);</span><br><span class="line">        jFrame.setLocationRelativeTo(null);</span><br><span class="line"></span><br><span class="line">        jFrame.setLayout(new FlowLayout());</span><br><span class="line"></span><br><span class="line">        JLabel jLabel &#x3D; new JLabel(&quot;请输入您的账号&quot;);</span><br><span class="line">        jLabel.setPreferredSize(new Dimension(250,100));</span><br><span class="line">        jFrame.add(jLabel);</span><br><span class="line"></span><br><span class="line">        JTextField jTextField &#x3D; new JTextField();</span><br><span class="line">        jTextField.setPreferredSize(new Dimension(250,30));</span><br><span class="line">        jFrame.add(jTextField);</span><br><span class="line"></span><br><span class="line">        JButton jButton &#x3D; new JButton(&quot;点击查询&quot;);</span><br><span class="line">        jButton.setPreferredSize(new Dimension(100,50));</span><br><span class="line">        jFrame.add(jButton);</span><br><span class="line"></span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line">        jTextField.addActionListener(new Findlistener(jTextField, jButton));</span><br><span class="line">        jButton.addActionListener(new Findlistener(jTextField, jButton));</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;找到密码画面</span><br><span class="line">    public void showmm(String password)&#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;找到密码:&quot;);</span><br><span class="line">        jFrame.setSize(300,150);</span><br><span class="line">        jFrame.setResizable(false);</span><br><span class="line">        jFrame.setLocationRelativeTo(null);</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        jFrame.setLayout(new FlowLayout());</span><br><span class="line"></span><br><span class="line">        JLabel jLabel &#x3D; new JLabel(&quot;您的密码是&quot;+password);</span><br><span class="line">        jLabel.setPreferredSize(new Dimension(250,50));</span><br><span class="line">        jFrame.add(jLabel);</span><br><span class="line"></span><br><span class="line">        JButton jButton &#x3D; new JButton(&quot;点击返回登录界面：&quot;);</span><br><span class="line">        jButton.setPreferredSize(new Dimension(250,30));</span><br><span class="line">        jFrame.add(jButton);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        jButton.addActionListener(new BackListener(jButton));</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void showfindmmfail()&#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;寻找密码失败&quot;);</span><br><span class="line">        jFrame.setSize(300,150);</span><br><span class="line">        jFrame.setResizable(false);</span><br><span class="line">        jFrame.setLocationRelativeTo(null);</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);</span><br><span class="line"></span><br><span class="line">        jFrame.setLayout(new FlowLayout());</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        JLabel jLabel &#x3D; new JLabel(&quot;没有找到对应的账号&quot;);</span><br><span class="line">        jLabel.setPreferredSize(new Dimension(250,50));</span><br><span class="line">        jFrame.add(jLabel);</span><br><span class="line"></span><br><span class="line">        JButton jButton &#x3D; new JButton(&quot;点击返回登录界面&quot;);</span><br><span class="line">        jButton.setPreferredSize(new Dimension(250,30));</span><br><span class="line">        jFrame.add(jButton);</span><br><span class="line"></span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        jButton.addActionListener(new BackListener(jButton));</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    public void showlogin()&#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;酬勤注册界面&quot;);           &#x2F;&#x2F;标题</span><br><span class="line">        jFrame.setSize(300, 300);                   &#x2F;&#x2F;大小</span><br><span class="line">        jFrame.setResizable(false);                             &#x2F;&#x2F;不准改变大小</span><br><span class="line">        jFrame.setLocationRelativeTo(null);                     &#x2F;&#x2F;相对位置</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);                        &#x2F;&#x2F;EXIT_ON_CLOSE,直接关闭应用程序，System.exit(0)。一个main函数对应一整个程序</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;设置流式布局</span><br><span class="line">        jFrame.setLayout(new FlowLayout());</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;加图片</span><br><span class="line">        ImageIcon imageIcon &#x3D; new ImageIcon(&quot;C:\\Users\\Bone\\Pictures\\u&#x3D;1905479539,1396941344&amp;fm&#x3D;26&amp;gp&#x3D;0.jpg&quot;);</span><br><span class="line">        JLabel jLabelimage &#x3D; new JLabel(imageIcon);</span><br><span class="line">        jLabelimage.setPreferredSize(new Dimension(300, 100));</span><br><span class="line">        jFrame.add(jLabelimage);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;加标签和对应文本框</span><br><span class="line">        JLabel jLabelzh &#x3D; new JLabel(&quot;账号&quot;);</span><br><span class="line">        JLabel jLabelmm &#x3D; new JLabel(&quot;密码&quot;);</span><br><span class="line">        JTextField jTextFieldzh &#x3D; new JTextField();</span><br><span class="line">        JTextField jTextFieldmm &#x3D; new JTextField();</span><br><span class="line">        jLabelzh.setPreferredSize(new Dimension(30, 30));</span><br><span class="line">        jLabelmm.setPreferredSize(new Dimension(30, 30));</span><br><span class="line">        jTextFieldzh.setPreferredSize(new Dimension(220, 30));</span><br><span class="line">        jTextFieldmm.setPreferredSize(new Dimension(220, 30));</span><br><span class="line">        jFrame.add(jLabelzh);</span><br><span class="line">        jFrame.add(jTextFieldzh);</span><br><span class="line">        jFrame.add(jLabelmm);</span><br><span class="line">        jFrame.add(jTextFieldmm);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;加按钮</span><br><span class="line">        JButton jButton &#x3D; new JButton(&quot;注册&quot;);</span><br><span class="line">        jButton.setPreferredSize(new Dimension(100,50));</span><br><span class="line">        jFrame.add(jButton);</span><br><span class="line"></span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;注册监听</span><br><span class="line">        jButton.addActionListener(new ZCListener(jButton,jTextFieldzh,jTextFieldmm));</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;注册成功界面</span><br><span class="line">    public void showzcsuccess()&#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;注册成功&quot;);</span><br><span class="line">        jFrame.setSize(300,150);</span><br><span class="line">        jFrame.setResizable(false);</span><br><span class="line">        jFrame.setLocationRelativeTo(null);</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;设置流式布局</span><br><span class="line">        jFrame.setLayout(new FlowLayout());</span><br><span class="line"></span><br><span class="line">        JLabel jLabel &#x3D; new JLabel(&quot;注册成功，开始酬勤&quot;);</span><br><span class="line">        jLabel.setPreferredSize(new Dimension(150,50));</span><br><span class="line">        jFrame.add(jLabel);</span><br><span class="line"></span><br><span class="line">        JButton jButton &#x3D; new JButton(&quot;点击返回登录界面&quot;);</span><br><span class="line">        jButton.setPreferredSize(new Dimension(200,30));</span><br><span class="line">        jFrame.add(jButton);</span><br><span class="line"></span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line">        jButton.addActionListener(new BackListener(jButton));</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;注册失败界面</span><br><span class="line">    public void showzcfila()&#123;</span><br><span class="line">        JFrame jFrame &#x3D; new JFrame(&quot;注册失败&quot;);</span><br><span class="line">        jFrame.setSize(300,150);</span><br><span class="line">        jFrame.setResizable(false);</span><br><span class="line">        jFrame.setLocationRelativeTo(null);</span><br><span class="line">        jFrame.setDefaultCloseOperation(3);</span><br><span class="line"></span><br><span class="line">        &#x2F;&#x2F;设置流式布局</span><br><span class="line">        jFrame.setLayout(new FlowLayout());</span><br><span class="line"></span><br><span class="line">        JLabel jLabel &#x3D; new JLabel(&quot;您输入的账号已存在&quot;);</span><br><span class="line">        jLabel.setPreferredSize(new Dimension(150,50));</span><br><span class="line">        jFrame.add(jLabel);</span><br><span class="line"></span><br><span class="line">        JButton jButton &#x3D; new JButton(&quot;点击返回登录界面&quot;);</span><br><span class="line">        jButton.setPreferredSize(new Dimension(200,30));</span><br><span class="line">        jFrame.add(jButton);</span><br><span class="line"></span><br><span class="line">        jFrame.setVisible(true);</span><br><span class="line"></span><br><span class="line">        jButton.addActionListener(new BackListener(jButton));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>登录界面对应的监听器Dlistener</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;登录界面监视器</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">import javax.swing.*;</span><br><span class="line">import java.awt.event.ActionEvent;</span><br><span class="line">import java.awt.event.ActionListener;</span><br><span class="line"></span><br><span class="line">public class DLlistener implements ActionListener &#123;</span><br><span class="line">    JButton jButton &#x3D; new JButton();</span><br><span class="line">    JTextField jtzh &#x3D; new JTextField();</span><br><span class="line">    JTextField jtmm &#x3D; new JTextField();</span><br><span class="line">    JCheckBox  jCheckBox[] &#x3D; new JCheckBox[2];</span><br><span class="line">    Frame frame &#x3D; new Frame();</span><br><span class="line">    JDBC jdbc &#x3D; new JDBC();</span><br><span class="line">    public DLlistener(JButton jButton,JTextField jtzh,JTextField jzmm,JCheckBox jCheckBox[])</span><br><span class="line">    &#123;</span><br><span class="line">        this.jButton &#x3D; jButton;</span><br><span class="line">        this.jCheckBox &#x3D; jCheckBox;</span><br><span class="line">        this.jtmm &#x3D; jzmm;</span><br><span class="line">        this.jtzh &#x3D; jtzh;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void actionPerformed(ActionEvent e) &#123;</span><br><span class="line">        boolean flag1 &#x3D; jdbc.search(jtzh.getText());</span><br><span class="line">        boolean flag2 &#x3D; jdbc.login(jtzh.getText(), jtmm.getText());</span><br><span class="line">        if (jCheckBox[0].isSelected() &amp;&amp; flag1) &#123;</span><br><span class="line">            &#x2F;&#x2F;调用方法</span><br><span class="line">            frame.showSuccess();</span><br><span class="line">        &#125; else &#123;</span><br><span class="line">            if (jCheckBox[1].isSelected()) &#123;</span><br><span class="line">                jtmm.setText(jdbc.showmm(jtzh.getText()));</span><br><span class="line">            &#125;</span><br><span class="line">            if (flag2) &#123;</span><br><span class="line">                frame.showSuccess(); &#x2F;&#x2F;如果输入的账号和密码都正确，则显示登陆成功</span><br><span class="line">            &#125; else if (!flag2) &#123;</span><br><span class="line">                frame.showFail(); &#x2F;&#x2F;如果输入的账号或者密码不正确，则显示登陆失败</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>找回密码按钮的监听</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import javax.swing.*;</span><br><span class="line">import java.awt.event.ActionEvent;</span><br><span class="line">import java.awt.event.ActionListener;</span><br><span class="line"></span><br><span class="line">public class FBListener implements ActionListener &#123;</span><br><span class="line">    Frame frame &#x3D; new Frame();</span><br><span class="line">    JButton jButton &#x3D; new JButton();</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;通过构造函数传递按钮</span><br><span class="line">    public FBListener(JButton jButton)&#123;</span><br><span class="line">        this.jButton &#x3D; jButton;</span><br><span class="line">    &#125;</span><br><span class="line">    @Override</span><br><span class="line">    public void actionPerformed(ActionEvent e) &#123;</span><br><span class="line">        frame.showfindm();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>找回密码界面的监听</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import javax.swing.*;</span><br><span class="line">import java.awt.*;</span><br><span class="line">import java.awt.event.ActionEvent;</span><br><span class="line">import java.awt.event.ActionListener;</span><br><span class="line"></span><br><span class="line">public class Findlistener implements ActionListener &#123;</span><br><span class="line">    JTextField jTextField &#x3D; new JTextField();</span><br><span class="line">    JButton jButton &#x3D; new JButton();</span><br><span class="line">    Frame frame &#x3D; new Frame();</span><br><span class="line">    JDBC jdbc &#x3D; new JDBC();</span><br><span class="line">    &#x2F;&#x2F;通过构造函数传递组件</span><br><span class="line">    public Findlistener(JTextField jTextField ,JButton jButton )&#123;</span><br><span class="line">        this.jTextField &#x3D; jTextField ;</span><br><span class="line">        this.jButton &#x3D; jButton ;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void actionPerformed(ActionEvent e)&#123;</span><br><span class="line">        boolean flag &#x3D; jdbc.search(jTextField.getText());</span><br><span class="line">        if(flag)&#123;</span><br><span class="line">            frame.showmm(jdbc.showmm(jTextField.getText())); &#x2F;&#x2F;如果输入的是正确的账号，则显示对应的密码</span><br><span class="line">        &#125;else&#123;</span><br><span class="line">            frame.showfindmmfail(); &#x2F;&#x2F;否则寻找密码失败</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>返回登录界面的监听</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import javax.swing.*;</span><br><span class="line">import java.awt.event.ActionEvent;</span><br><span class="line">import java.awt.event.ActionListener;</span><br><span class="line"></span><br><span class="line">public class BackListener implements ActionListener &#123;</span><br><span class="line">    JButton jButton &#x3D; new JButton();</span><br><span class="line">    Frame frame &#x3D; new Frame();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    BackListener(JButton jButton)</span><br><span class="line">    &#123;</span><br><span class="line">        this.jButton &#x3D; jButton;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void actionPerformed(ActionEvent e) &#123;</span><br><span class="line">        frame.showMain();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>注册按钮的监听：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import javax.swing.*;</span><br><span class="line">import java.awt.event.ActionEvent;</span><br><span class="line">import java.awt.event.ActionListener;</span><br><span class="line"></span><br><span class="line">public class LoginListener implements ActionListener &#123;</span><br><span class="line">    Frame frame &#x3D; new Frame();</span><br><span class="line">    JButton jButton &#x3D; new JButton();</span><br><span class="line">    public LoginListener(JButton jButton)&#123;</span><br><span class="line">        this.jButton &#x3D; jButton;</span><br><span class="line">    &#125;</span><br><span class="line">    @Override</span><br><span class="line">    public void actionPerformed(ActionEvent e) &#123;</span><br><span class="line">        frame.showlogin();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>注册界面的监听：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import javax.swing.*;</span><br><span class="line">import java.awt.event.ActionEvent;</span><br><span class="line">import java.awt.event.ActionListener;</span><br><span class="line"></span><br><span class="line">public class ZCListener implements ActionListener &#123;</span><br><span class="line">    JButton jButton &#x3D; new JButton();</span><br><span class="line">    JTextField jtzh &#x3D; new JTextField();</span><br><span class="line">    JTextField jtmm &#x3D; new JTextField();</span><br><span class="line">    Frame frame &#x3D; new Frame();</span><br><span class="line">    JDBC jdbc &#x3D; new JDBC();</span><br><span class="line">    ZCListener(JButton jButton,JTextField jtzh ,JTextField jtmm)</span><br><span class="line">    &#123;</span><br><span class="line">        this.jButton &#x3D; jButton;</span><br><span class="line">        this.jtzh &#x3D; jtzh;</span><br><span class="line">        this.jtmm &#x3D; jtmm;</span><br><span class="line">    &#125;</span><br><span class="line">    @Override</span><br><span class="line">    public void actionPerformed(ActionEvent e) &#123;</span><br><span class="line">        boolean flag2 &#x3D; jdbc.search(jtzh.getText());</span><br><span class="line">        int flag1 &#x3D; jdbc.register(jtzh.getText(),jtmm.getText());</span><br><span class="line"></span><br><span class="line">        if (flag2)&#123;</span><br><span class="line">            frame.showzcfila();</span><br><span class="line">        &#125;else if(flag1 &#x3D;&#x3D; 1)</span><br><span class="line">            frame.showzcsuccess();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>JDBC的判断方法(应用Druid数据库连接池):</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import Util.JDBCUtil;</span><br><span class="line"></span><br><span class="line">import java.sql.*;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">public class JDBC &#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    public boolean login(String username,String password)</span><br><span class="line">    &#123;</span><br><span class="line">        if(username &#x3D;&#x3D; null || password &#x3D;&#x3D; null)</span><br><span class="line">            return false;</span><br><span class="line">        Connection conn &#x3D; null;</span><br><span class="line">        Statement stmt &#x3D; null;</span><br><span class="line">        ResultSet rs &#x3D; null;</span><br><span class="line">        try &#123;</span><br><span class="line">            conn &#x3D; JDBCUtil.getConnection();</span><br><span class="line">            String sql &#x3D; &quot;select * from user where username &#x3D; &#39;&quot; + username+&quot;&#39;and password &#x3D; &#39;&quot;+password+&quot;&#39;&quot;;</span><br><span class="line">            stmt &#x3D; conn.createStatement();</span><br><span class="line">            rs &#x3D; stmt.executeQuery(sql);</span><br><span class="line">            return rs.next();</span><br><span class="line">        &#125; catch (SQLException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;finally &#123;</span><br><span class="line">            JDBCUtil.close(rs,stmt,conn);</span><br><span class="line">        &#125;</span><br><span class="line">        return false;</span><br><span class="line">    &#125;</span><br><span class="line">    public boolean search(String username)</span><br><span class="line">    &#123;</span><br><span class="line">        if(username &#x3D;&#x3D; null)</span><br><span class="line">            return false;</span><br><span class="line">        Connection conn &#x3D; null;</span><br><span class="line">        Statement stmt &#x3D; null;</span><br><span class="line">        ResultSet rs &#x3D; null;</span><br><span class="line">        try &#123;</span><br><span class="line">            conn &#x3D; JDBCUtil.getConnection();</span><br><span class="line">            String sql &#x3D; &quot;select * from user where username &#x3D; &#39;&quot;+username+&quot;&#39;&quot;;</span><br><span class="line">            stmt &#x3D; conn.createStatement();</span><br><span class="line">            rs &#x3D; stmt.executeQuery(sql);</span><br><span class="line">            return rs.next();</span><br><span class="line">        &#125; catch (SQLException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;finally &#123;</span><br><span class="line">            JDBCUtil.close(rs,stmt,conn);</span><br><span class="line">        &#125;</span><br><span class="line">        return false;</span><br><span class="line">    &#125;</span><br><span class="line">    public String showmm(String username)</span><br><span class="line">    &#123;</span><br><span class="line">        if(username &#x3D;&#x3D; null)</span><br><span class="line">            return &quot;&quot;;</span><br><span class="line">        Connection conn &#x3D; null;</span><br><span class="line">        Statement stmt &#x3D; null;</span><br><span class="line">        ResultSet rs &#x3D; null;</span><br><span class="line">        try &#123;</span><br><span class="line">            conn &#x3D; JDBCUtil.getConnection();</span><br><span class="line">            String sql &#x3D; &quot;select * from user where username &#x3D; &#39;&quot;+username+&quot;&#39;&quot;;</span><br><span class="line">            stmt &#x3D; conn.createStatement();</span><br><span class="line">            rs &#x3D; stmt.executeQuery(sql);</span><br><span class="line">            boolean count &#x3D; rs.next();</span><br><span class="line">            String password &#x3D; rs.getString(&quot;password&quot;);</span><br><span class="line">            return password;</span><br><span class="line">        &#125; catch (SQLException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        return &quot;&quot;;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    public int register(String username,String password)</span><br><span class="line">    &#123;</span><br><span class="line">        if(username &#x3D;&#x3D; null || password &#x3D;&#x3D; null)</span><br><span class="line">            return 0;</span><br><span class="line">        &#x2F;&#x2F;判断连接数据库是否登录成功</span><br><span class="line">        Connection conn &#x3D; null;</span><br><span class="line">        PreparedStatement pstmt &#x3D; null;</span><br><span class="line">        ResultSet rs &#x3D; null;</span><br><span class="line">        try &#123;</span><br><span class="line">            conn &#x3D; JDBCUtil.getConnection();</span><br><span class="line">            String sql &#x3D; &quot;INSERT INTO user VALUES (?,?)&quot;;</span><br><span class="line"></span><br><span class="line">            pstmt &#x3D; conn.prepareStatement(sql);</span><br><span class="line">            pstmt.setString(1,username);</span><br><span class="line">            pstmt.setString(2,password);</span><br><span class="line">            int count &#x3D; pstmt.executeUpdate();</span><br><span class="line">            return count;</span><br><span class="line">        &#125; catch (SQLException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;finally &#123;</span><br><span class="line">            JDBCUtil.close(pstmt,conn);</span><br><span class="line">        &#125;</span><br><span class="line">        return 0;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>JDBC的工具类：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import com.alibaba.druid.pool.DruidDataSourceFactory;</span><br><span class="line">import javax.sql.DataSource;</span><br><span class="line">import java.io.IOException;</span><br><span class="line">import java.sql.*;</span><br><span class="line">import java.util.Properties;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> * Driud连接池工具类</span><br><span class="line"> *&#x2F;</span><br><span class="line">public class JDBCUtil &#123;</span><br><span class="line">    &#x2F;&#x2F;1.定义成员变量 DataSource</span><br><span class="line">    private static DataSource ds;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#x2F;**</span><br><span class="line">     * 文件的读取，只需要读取一次即可拿到代码块</span><br><span class="line">     *&#x2F;</span><br><span class="line">    static &#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        try &#123;</span><br><span class="line">            &#x2F;&#x2F;加载配置文件</span><br><span class="line">            Properties pro &#x3D; new Properties();</span><br><span class="line">            pro.load(JDBCUtil.class.getClassLoader().getResourceAsStream(&quot;druid.properties&quot;));</span><br><span class="line">            ds &#x3D; DruidDataSourceFactory.createDataSource(pro);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        &#125; catch (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125; catch (Exception e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;**</span><br><span class="line">     *获取连接</span><br><span class="line">     * @return连接对象</span><br><span class="line">     *&#x2F;</span><br><span class="line">    public static Connection getConnection() throws SQLException &#123;</span><br><span class="line">        return ds.getConnection();</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;**</span><br><span class="line">     * 释放资源</span><br><span class="line">     * @param stmt</span><br><span class="line">     * @param conn</span><br><span class="line">     *&#x2F;</span><br><span class="line"></span><br><span class="line">    public static void close(ResultSet rs, Statement stmt,Connection conn)</span><br><span class="line">    &#123;</span><br><span class="line">        if(rs !&#x3D; null)&#123;</span><br><span class="line">            try &#123;</span><br><span class="line">                rs.close();</span><br><span class="line">            &#125; catch (SQLException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        if(stmt !&#x3D; null)&#123;</span><br><span class="line">            try &#123;</span><br><span class="line">                stmt.close();</span><br><span class="line">            &#125; catch (SQLException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        if(conn !&#x3D; null)&#123;</span><br><span class="line">            try &#123;</span><br><span class="line">                conn.close();</span><br><span class="line">            &#125; catch (SQLException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    public static void close(Statement stmt,Connection conn)</span><br><span class="line">    &#123;</span><br><span class="line">        close(null,stmt,conn);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;**</span><br><span class="line">     * 获取连接池的方法</span><br><span class="line">     *&#x2F;</span><br><span class="line"></span><br><span class="line">    public  static DataSource getDataSource()&#123;</span><br><span class="line">        return ds;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="3-最终效果"><a href="#3-最终效果" class="headerlink" title="3.最终效果"></a>3.最终效果</h1><p>初始登录界面：<br><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584287123254&di=e1c3534da6df14905f8e1f0cd03a3712&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20200223%2Ff880f21176d043ef88f8681114364d47.jpeg" alt="登录界面-1"></p>
+<p>初始注册界面：<br><img src="/.com//1.png" alt="avatar"></p>
+<p>注册失败界面：<br><img src="/.com//QQ%E5%9B%BE%E7%89%8720200315194037.png" alt="avatar"></p>
+<p>注册成功界面：<br><img src="/.com//QQ%E5%9B%BE%E7%89%8720200315194042.png" alt="avatar"></p>
+<p>登录成功界面：<br><img src="/.com//QQ%E5%9B%BE%E7%89%8720200315194046.png" alt="avatar"></p>
+<p>登录失败界面：<br><img src="/.com//QQ%E5%9B%BE%E7%89%8720200315194050.png" alt="avatar"></p>
+<p>寻找密码成功界面：<br><img src="/.com//QQ%E5%9B%BE%E7%89%8720200315194055.png" alt="avatar"></p>
+<p>寻找密码失败界面：<br><img src="/.com//1.png" alt="avatar"></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><pre><code>第一个比较完整的小项目，虽然达到了达到了预想的效果，但是还有很多地方可以提升。</code></pre><ul>
+<li>1.自动登录和记住密码仍然存在问题，初定的计划是用文件的字符流来存储之前输入的账号和密码</li>
+<li>2.新的窗口并不能关闭旧的窗口，导致后面有很多窗口。计划把各个界面作为类来重写程序</li>
+<li>3.通过这次我充分的了解了frame，JDBC以及事件监听。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据库连接池</title>
+    <url>/2020/03/07/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%B1%A0/</url>
+    <content><![CDATA[<h1 id="数据库连接池"><a href="#数据库连接池" class="headerlink" title="数据库连接池"></a>数据库连接池</h1><a id="more"></a>
+
+
+
+
+<h1 id="Spring-JDBC：JDBC-Template"><a href="#Spring-JDBC：JDBC-Template" class="headerlink" title="Spring JDBC：JDBC Template"></a>Spring JDBC：JDBC Template</h1><h2 id="数据库连接池-1"><a href="#数据库连接池-1" class="headerlink" title="数据库连接池"></a>数据库连接池</h2><pre><code>*概念：其实就是一个容器（集合），存放数据库连接的容器
+     当系统初始化好后，容器被创建，容器中会申请一些连接对象，当用户来访问数据库时，从容器中获连接对象，用户访问完后，
+会将连接对象归还给容器
+    *好处：
+        1.节约资源
+        2.用户访问高效
+        3.实现：
+            1.标准接口：Datasource javax.sql包下的</code></pre><p>1.方法：<br>    *获取连接：getConnection()<br>    *归还连接：如果连接对象connection是从连接池获取的，那么调用Connection.close()方法，<br>则不会再关闭练了，而是归还连接</p>
+<p>2.一般我们不去实现它，有数据库厂商来实现<br>        1.c3p0：数据库连接池技术<br>        2.druid：数据库连接池实现技术，由阿里巴巴提供的</p>
+<p>4.cC3P0：数据库连接池技术<br>    *步骤：<br>        1.导入JAr包 两个，不要忘记导入数据库驱动jar包<br>        2.定义配置文集：<br>            *名称：c3p0.properties或c3p0-config.xml<br>            *路径：直接将文件放在src目录下即可。<br>        3.创建核心对象 数据库连接池对象 ComboPooledDataSource<br>        4.获取连接：getConnection</p>
+<p>5.druid：数据库连接池实现技术，由阿里巴巴提供的<br>    1.步骤：<br>        1.导入jar包<br>        2.定义配置文件：<br>            *是properties形式的<br>            *可以叫任意名称，可以放在任意目录下<br>        3.加载配置文件properties<br>        4.获取数据库连接池对象：通过工厂类来获取  DruidDataSourceFactoty<br>        5.获取连接：getConnection</p>
+<pre><code>2.定义工具类
+    1.定义一个类 JDBDUtils
+    2.提供静态代码块加载配置文件，初试化连接池对象
+    2.提供方法
+        1.获取连接方法：通过数据库连接池获取连接
+        2.释放资源
+        3.获取连接池的方法</code></pre><h2 id="Spring-JDBC"><a href="#Spring-JDBC" class="headerlink" title="Spring JDBC"></a>Spring JDBC</h2><pre><code>*Spring框架提供对JDBC的简单封装。提供了一个JDBCTemplata对象简化JDBC的开发
+*步骤：
+    1.导入JAr包
+    2.创建JdbcTemplate对象。依赖于数据源DataSource
+        *JdbcTemplate  template = new JdbcTemplate(ds);
+    3.调用JdbcTemplate的方法来完成CRUD的操作
+        *updata():执行DML语句。增、删、改语句
+        *queryForMap():查询结果将结果封装为map集合
+            *注意：这个方法的结果集长度只能是1
+        *queryForList():查询结果将结果封装为list集合
+            *注意：将每一条记录封装为一个Map集合，再将Map集合装载到List集合中
+        *query():查询结果将结果封装为JavaBean对象
+            *query的参数：RowMapper
+                *一般我们使用BeanPropertyRowMapper实现类。可以完成数据到javaBean的自动封装
+                *new BeanPropertyRowMapper&lt;类型&gt;(类型.class)
+        *queryForObject:查询结果将结果封装为JavaBean对象
+            *一般用于聚合函数的查询</code></pre><h2 id="Junit单元测试，可以让方法独立执行"><a href="#Junit单元测试，可以让方法独立执行" class="headerlink" title="Junit单元测试，可以让方法独立执行"></a>Junit单元测试，可以让方法独立执行</h2><pre><code>@Test
+public void test1 (){
+
+}</code></pre>]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>框架函数</title>
+    <url>/2020/03/07/%E6%A1%86%E6%9E%B6%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="frame-setDefaultCloseOperation"><a href="#frame-setDefaultCloseOperation" class="headerlink" title="frame.setDefaultCloseOperation()"></a>frame.setDefaultCloseOperation()</h1><p>frame.setDefaultCloseOperation()是设置用户在此窗体上发起 “close” 时默认执行的操作。必须指定以下选项之一： </p>
+<p>DO_NOTHING_ON_CLOSE（在 WindowConstants 中定义）：不执行任何操作；要求程序在已注册的 WindowListener 对象的 windowClosing 方法中处理该操作。<br>HIDE_ON_CLOSE（在 WindowConstants 中定义）：调用任意已注册的 WindowListener 对象后自动隐藏该窗体。<br>DISPOSE_ON_CLOSE（在 WindowConstants 中定义）：调用任意已注册 WindowListener 的对象后自动隐藏并释放该窗体。<br>EXIT_ON_CLOSE（在 JFrame 中定义）：使用 System exit 方法退出应用程序。仅在应用程序中使用。<br>默认情况下，该值被设置为 HIDE_ON_CLOSE</p>
+<h1 id="setLocationRelativeTo"><a href="#setLocationRelativeTo" class="headerlink" title="setLocationRelativeTo()"></a>setLocationRelativeTo()</h1><p>public void setLocationRelativeTo(Component c)</p>
+<p>设置窗口相对于指定组件的位置。</p>
+<p>如果组件当前未显示或者 c 为 null，则此窗口将置于屏幕的中央。</p>
+<p>中点可以使用 GraphicsEnvironment.getCenterPoint 确定。</p>
+<h1 id="setResizable"><a href="#setResizable" class="headerlink" title="setResizable()"></a>setResizable()</h1><p>public void setResizable(boolean resizable)</p>
+<p>设置此窗体是否可由用户调整大小。</p>
+<p>参数为boolean类型：</p>
+<p>resizeable值为true时，表示生成的窗体可以自由改变大小；</p>
+<p>resizeable值为false时，表示生成的窗体大小是由程序员决定的，用户不可以自由改变该窗体的大小。</p>
+<h1 id="setVisable"><a href="#setVisable" class="headerlink" title="setVisable()"></a>setVisable()</h1><p>setVisible(true);方法的意思是说数据模型已经构造好了，允许JVM可以根据数据模型执行paint方法开始画图并显示到屏幕上了，并不是显示图形，而是可以运行开始画图了， 这个方法和java多线程的start方法有点异曲同工之妙，start方式是允许run方法运行了，start方法和setVisible方法很相似。<br>但为了安全起见，还是要把setVisible()方法放到最后面。<br>代码是按顺序执行的 ，如果把setVisible()放在前边，后边再添加其他组件的时候，有可能不会显示出来</p>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>框架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题1</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%981/</url>
+    <content><![CDATA[<h1 id="【程序-1-不死神兔】"><a href="#【程序-1-不死神兔】" class="headerlink" title="【程序 1 不死神兔】"></a>【程序 1 不死神兔】</h1><a id="more"></a>
+<ul>
+<li>题目：古典问题：有一对兔子，从出生后第 3 个月起每个月都生一对兔子，小兔子长到第三个月后每个月<br>又生一对兔子，假如兔子都不死，问每个月的兔子对数为多少？<br>程序分析： 兔子的规律为数列 1,1,2,3,5,8,13,21….</li>
+</ul>
+<p>典型的斐波拉契数列<br>用递归<br>递归必须有一个跳出递归的条件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class Test1 &#123;</span><br><span class="line">    public  static int tutu(int n)&#123;</span><br><span class="line">        if(n &#x3D;&#x3D; 1|| n&#x3D;&#x3D; 2)</span><br><span class="line">            return 1;</span><br><span class="line">        else return tutu(n-1) + tutu(n-2);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        for (int i &#x3D; 3;i &lt;&#x3D; 50;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            int a &#x3D; tutu(i);</span><br><span class="line">            System.out.println(&quot;第&quot;+i+&quot;个月有&quot;+a+&quot;个兔子&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题10</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%9810/</url>
+    <content><![CDATA[<h1 id="【程序-10-自由落体】"><a href="#【程序-10-自由落体】" class="headerlink" title="【程序 10 自由落体】"></a>【程序 10 自由落体】</h1><a id="more"></a>
+<ul>
+<li>题目：一球从 100 米高度自由落下，每次落地后反跳回原高度的一半；求它在 第 10 次落地时，共经过多<br>少米？第 10 次反弹多高？ </li>
+<li>代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">		float a[] &#x3D; new float[10];			&#x2F;&#x2F;用于存储每次</span><br><span class="line">		float sum &#x3D; 100;</span><br><span class="line">		a[0] &#x3D; 100;</span><br><span class="line">		for (int i &#x3D; 1; i &lt; 10;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			a[i] &#x3D; a[i - 1]&#x2F;2;</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i &#x3D; 1;i &lt; 10;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			sum &#x3D; sum + a[i]*2;</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(&quot;一共弹了&quot;+sum+&quot;米&quot;);</span><br><span class="line">		System.out.println(&quot;第十次反弹&quot;+(a[9]&#x2F;2)+&quot;米&quot;);</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题11</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%9811/</url>
+    <content><![CDATA[<h1 id="【程序-11-求不重复数字】"><a href="#【程序-11-求不重复数字】" class="headerlink" title="【程序 11 求不重复数字】"></a>【程序 11 求不重复数字】</h1><a id="more"></a>
+<ul>
+<li>题目：有 1、2、3、4 个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？<br>程序分析：可填在百位、十位、个位的数字都是 1、2、3、4。组成所有的排列后再去 掉不满足条件的排<br>列。 </li>
+<li>代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">		int count &#x3D; 0;  				&#x2F;&#x2F;表示一共多少个数字</span><br><span class="line">		int i,j,k,l;</span><br><span class="line">		for(i &#x3D; 1;i &lt;&#x3D; 4;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			for(j &#x3D; 1;j &lt;&#x3D; 4;j++)</span><br><span class="line">			&#123;</span><br><span class="line">				for(k &#x3D; 1;k &lt;&#x3D; 4;k++)</span><br><span class="line">				&#123;</span><br><span class="line">					for(l &#x3D; 1;l &lt;&#x3D; 4;l++)</span><br><span class="line">					&#123;</span><br><span class="line">						if(i !&#x3D; j&amp;&amp; i !&#x3D; k &amp;&amp; i !&#x3D; l&amp;&amp; j !&#x3D; k&amp;&amp;j !&#x3D; l&amp;&amp; k !&#x3D; l)</span><br><span class="line">						&#123;</span><br><span class="line">							count++;</span><br><span class="line">							System.out.print(i*1000+j*100+k*10+l);</span><br><span class="line">							System.out.print(&quot; &quot;);</span><br><span class="line">						</span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">		System.out.println(&quot;一个有数字&quot;+count);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题2</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%982/</url>
+    <content><![CDATA[<h1 id="【程序-2-输出素数】"><a href="#【程序-2-输出素数】" class="headerlink" title="【程序 2 输出素数】"></a>【程序 2 输出素数】</h1><a id="more"></a>
+<ul>
+<li>题目：判断 101-200 之间有多少个素数，并输出所有素数。<br>程序分析：判断素数的方法：用一个数分别去除 2 到 sqrt(这个数)，如果能被整除，则表明此数不是素<br>数，反之是素数。 </li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import java.lang.*;</span><br><span class="line">import java.util.Arrays;</span><br><span class="line"></span><br><span class="line">public class Test2 &#123;</span><br><span class="line">	public static void mian(String args[]) &#123;</span><br><span class="line">		&#x2F;&#x2F; TODO Auto-generated method stub</span><br><span class="line">		boolean a[] &#x3D; new boolean[200];</span><br><span class="line">		Arrays.fill(a,true);</span><br><span class="line">		int count &#x3D; 0;</span><br><span class="line">		a[0] &#x3D; false;</span><br><span class="line">		a[1] &#x3D; false;</span><br><span class="line">		for(int i &#x3D; 2;i &lt; 200;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			if(!a[i]) continue;</span><br><span class="line">			for(int j &#x3D; 2;j &lt;&#x3D; 200&amp;&amp;i*j&lt;200;j++)</span><br><span class="line">			&#123;	</span><br><span class="line">				a[i*j] &#x3D; false;</span><br><span class="line"></span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">		for (int i &#x3D; 0;i &lt; 200;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			if(a[i]) count++;</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(&quot;一共有&quot;+count+&quot;个素数&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题3</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%983/</url>
+    <content><![CDATA[<h1 id="【程序-3-水仙花数】"><a href="#【程序-3-水仙花数】" class="headerlink" title="【程序 3 水仙花数】"></a>【程序 3 水仙花数】</h1><a id="more"></a>
+<ul>
+<li><p>题目：打印出所有的”水仙花数”，所谓”水仙花数”是指一个三位数，其各位数字立方和等于该数本身。例<br>如：153 是一个”水仙花数”，因为 153=1 的三次方＋5 的三次方＋3 的三次方。  </p>
+</li>
+<li><p>程序分析：利用 for 循环控制 100-999 个数，每个数分解出个位，十位，百位。</p>
+</li>
+<li><p>思路：利用 for 循环控制 100-999 个数，每个数分解出个位，十位，百位。  </p>
+</li>
+</ul>
+<p>*代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">		int num,i,j,k;</span><br><span class="line">		for(num &#x3D; 100;num &lt;&#x3D; 999;num++)</span><br><span class="line">		&#123;</span><br><span class="line">			i &#x3D; num&#x2F;100;</span><br><span class="line">			j &#x3D; (num&#x2F;10)%10;</span><br><span class="line">			k &#x3D; num%10;</span><br><span class="line">			if(num &#x3D;&#x3D; i*i*i + j*j*j + k*k*k)</span><br><span class="line">			&#123;</span><br><span class="line">				System.out.println(num+&quot;,&quot;);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题4</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%984/</url>
+    <content><![CDATA[<h1 id="【程序-4-分解质因数】"><a href="#【程序-4-分解质因数】" class="headerlink" title="【程序 4 分解质因数】"></a>【程序 4 分解质因数】</h1><a id="more"></a>
+<ul>
+<li><p>题目：将一个大于 2 正整数分解质因数。例如：输入 3, 3=3, 输入 6, 6=2<em>3,输入 90, 90=2</em>3<em>3</em>5。 </p>
+</li>
+<li><p>程序分析：对 n 进行分解质因数，应先找到一个最小的质数 k，然后按下述步骤完成：<br>(1)如果这个质数恰等于 n，则说明分解质因数的过程已经结束，打印出即可。<br>(2)如果 n&lt;&gt;k，但 n 能被 k 整除，则应打印出 k 的值，并用 n 除以 k 的商,作为新的正整数 n,重复执行第<br>一步。<br>(3)如果 n 不能被 k 整除，则用 k+1 作为 k 的值,重复执行第一步。</p>
+</li>
+<li><p>思路：</p>
+</li>
+</ul>
+<p>1.用for循环遍历除以2~n，找到第一个能除尽的值a；<br>能被4整除，必能被2整除<br>2.用n除以a值得到新的n；<br>3.重复以上过程，直到n=a；</p>
+<ul>
+<li>代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">	Scanner sc &#x3D; new Scanner(System.in);</span><br><span class="line">	System.out.println(&quot;请输入一个数字：&quot;);</span><br><span class="line">	int num &#x3D; sc.nextInt();&#x2F;&#x2F;从键盘得到一个整数</span><br><span class="line">	int m &#x3D; num;</span><br><span class="line">	int a[] &#x3D; new int[20];&#x2F;&#x2F;声明一个数组存储因数的值</span><br><span class="line">	int j &#x3D; 0;&#x2F;&#x2F;声明数组下标</span><br><span class="line">	for(int k &#x3D; 2;k &lt;&#x3D; m;)</span><br><span class="line">	&#123;</span><br><span class="line">		if(m%k &#x3D;&#x3D; 0)</span><br><span class="line">		&#123;</span><br><span class="line">			a[j] &#x3D; k;</span><br><span class="line">			j++;&#x2F;&#x2F;数组下标往后移</span><br><span class="line">			m &#x3D; m&#x2F;k;</span><br><span class="line">		&#125;else</span><br><span class="line">		&#123;</span><br><span class="line">			k++;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	System.out.print(num + &quot;,&quot; + num + &quot;&#x3D;&quot;);</span><br><span class="line">	System.out.print(a[0]);</span><br><span class="line">	for(int i &#x3D; 1;i &lt;&#x3D; j-1;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		System.out.print(&quot;*&quot;+a[i]);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题5</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%985/</url>
+    <content><![CDATA[<h1 id="【程序-5-判断分数等级】"><a href="#【程序-5-判断分数等级】" class="headerlink" title="【程序 5 判断分数等级】"></a>【程序 5 判断分数等级】</h1><a id="more"></a>
+<ul>
+<li>题目：利用条件运算符的嵌套来完成此题：学习成绩&gt;=90 分的同学用 A 表示，60-89 分之间的用 B 表示，<br>60 分以下的用 C 表示。 </li>
+<li>程序分析：(a&gt;b)?a:b 这是条件运算符的基本例子。</li>
+<li>思路：简单嵌套条件判断</li>
+<li>代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">	System.out.print(&quot;请输入分数：&quot;);</span><br><span class="line">	Scanner sc &#x3D; new Scanner(System.in);  &#x2F;&#x2F;从键盘得到一个分数</span><br><span class="line">	int point &#x3D; sc.nextInt();</span><br><span class="line">	char level;		&#x2F;&#x2F;等级用char类型来表示</span><br><span class="line">	level &#x3D; (point &gt;&#x3D; 90)?&#39;A&#39;:((point &gt;&#x3D; 60)?&#39;B&#39;:&#39;C&#39;);</span><br><span class="line">	System.out.println(&quot;等级是：&quot;+ level);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题6</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%986/</url>
+    <content><![CDATA[<h1 id="【程序-6-求最大公约数及最小公倍数】"><a href="#【程序-6-求最大公约数及最小公倍数】" class="headerlink" title="【程序 6 求最大公约数及最小公倍数】"></a>【程序 6 求最大公约数及最小公倍数】</h1><a id="more"></a>
+<ul>
+<li>题目：输入两个正整数 m 和 n，求其最大公约数和最小公倍数。 </li>
+<li>程序分析：利用辗除法。</li>
+<li>代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">		System.out.println(&quot;请输入一个整数：&quot;);</span><br><span class="line">		Scanner sc &#x3D; new Scanner(System.in);</span><br><span class="line">		int m &#x3D; sc.nextInt();					&#x2F;&#x2F;从键盘得到一个整数</span><br><span class="line">		int m1 &#x3D; m;								&#x2F;&#x2F;存储最初值</span><br><span class="line">		System.out.println(&quot;请再输入一个整数：&quot;);</span><br><span class="line">		int n &#x3D; sc.nextInt();					&#x2F;&#x2F;从键盘得到一个整数</span><br><span class="line">		int n1 &#x3D; n;</span><br><span class="line">		int temp1,temp2;						&#x2F;&#x2F;初试化两个临时变量</span><br><span class="line">		if(n &gt; m)&#123;								</span><br><span class="line">			temp1 &#x3D; n;</span><br><span class="line">			n &#x3D; m;</span><br><span class="line">			m &#x3D; temp1;	</span><br><span class="line">		&#125;</span><br><span class="line">		while(m%n !&#x3D; 0)</span><br><span class="line">		&#123;</span><br><span class="line">			temp2&#x3D; m%n;</span><br><span class="line">			m &#x3D; n;</span><br><span class="line">			n &#x3D; temp2;</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(&quot;最大公约数是：&quot;+n);</span><br><span class="line">		System.out.println(&quot;最小公倍数是：&quot;+n*(n1&#x2F;n)*(m1&#x2F;n));</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题7</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%987/</url>
+    <content><![CDATA[<h1 id="【程序-7-处理字符串】"><a href="#【程序-7-处理字符串】" class="headerlink" title="【程序 7 处理字符串】"></a>【程序 7 处理字符串】</h1><a id="more"></a>
+<ul>
+<li>题目：输入一行字符，分别统计出其中英文字母、空格、数字和其它字符的个数。 </li>
+<li>程序分析：利用 while 语句,条件为输入的字符不为’\n’.</li>
+<li>思路：<br>1、百度到java语言中可使用.length()， charAt()来遍历字符串，这种方法的原理和c中的字符串数字类似</li>
+</ul>
+<p>2、判断字符是什么类型，直接用ASCII码判断，且不需要写出来ASCII码是多少，如：字母直接用A<del>Z&amp;a</del>z即可</p>
+<ul>
+<li>代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">		System.out.println(&quot;请输入一串字符串：&quot;);</span><br><span class="line">		Scanner sc &#x3D; new Scanner(System.in);</span><br><span class="line">		String s &#x3D; sc.nextLine();				&#x2F;&#x2F;从键盘获得字符串</span><br><span class="line">		int num &#x3D; 0,balnk &#x3D; 0,word &#x3D; 0,other &#x3D; 0;</span><br><span class="line">		</span><br><span class="line">		char c;</span><br><span class="line">		for(int i &#x3D; 0;i &lt; s.length();i++)</span><br><span class="line">		&#123;</span><br><span class="line">			c &#x3D; s.charAt(i);</span><br><span class="line">			while(c !&#x3D; &#39;\n&#39;)</span><br><span class="line">			&#123;</span><br><span class="line">				if(((&#39;a&#39;&lt;&#x3D; c)&amp;(c &lt;&#x3D; &#39;z&#39;))||((&#39;A&#39; &lt;&#x3D; c)&amp;(c &lt;&#x3D; &#39;Z&#39;)))</span><br><span class="line">				&#123;</span><br><span class="line">					word++;</span><br><span class="line">				&#125;else if(c &#x3D;&#x3D; &#39; &#39;)</span><br><span class="line">				&#123;</span><br><span class="line">					balnk++;</span><br><span class="line">				&#125;else if(c&gt;&#x3D;0&amp;c&lt;&#x3D;9)</span><br><span class="line">				&#123;</span><br><span class="line">					num++;</span><br><span class="line">				&#125;else</span><br><span class="line">				&#123;</span><br><span class="line">					other++;</span><br><span class="line">				&#125;</span><br><span class="line">				break;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(&quot;字母的个数：&quot;+word+&quot;,数字的个数：&quot;+num+&quot;,空格的个数：&quot;+balnk+&quot;,其他符号的个数:&quot;+other);</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题8</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%988/</url>
+    <content><![CDATA[<h1 id="【程序-8-输入数字求和】"><a href="#【程序-8-输入数字求和】" class="headerlink" title="【程序 8 输入数字求和】"></a>【程序 8 输入数字求和】</h1><a id="more"></a>
+<ul>
+<li>题目：求 s=a+aa+aaa+aaaa+aa…a 的值，其中 a 是一个数字。例如 2+22+222+2222+22222(此时共有 5 个<br>数相加)，几个数相加有键盘控制。  </li>
+<li>程序分析：关键是计算出每一项的值</li>
+<li>代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">		System.out.print(&quot;请输入一个整数：&quot;);</span><br><span class="line">		Scanner sc &#x3D; new Scanner(System.in);</span><br><span class="line">		int n &#x3D; sc.nextInt();						&#x2F;&#x2F;数字a</span><br><span class="line">		System.out.print(&quot;请输入一个整数（一共相加几次）：&quot;);</span><br><span class="line">		int m &#x3D; sc.nextInt();</span><br><span class="line">		int a[] &#x3D; new int[20];						&#x2F;&#x2F;用数组存储相加项</span><br><span class="line">		int temp &#x3D; n;								&#x2F;&#x2F;创建一个临时变量</span><br><span class="line">		int sum &#x3D; 0;</span><br><span class="line">		for(int i &#x3D; 0;i &lt; m;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			a[i] &#x3D; temp;</span><br><span class="line">			temp &#x3D; temp*10 + n;</span><br><span class="line">			</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i &#x3D; 0;i &lt; m;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			System.out.print(a[i]+&quot;+&quot;);</span><br><span class="line">			sum +&#x3D; a[i];</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.print(&quot;&#x3D;&quot;+sum);</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础练习题9</title>
+    <url>/2020/03/07/java%E5%9F%BA%E7%A1%80%E9%A2%989/</url>
+    <content><![CDATA[<h1 id="【程序-9-求完数】"><a href="#【程序-9-求完数】" class="headerlink" title="【程序 9 求完数】"></a>【程序 9 求完数】</h1><a id="more"></a>
+<ul>
+<li>题目：一个数如果恰好等于它的所有因子之和，这个数就称为”完数”。例如 6=1＋2＋3.编程找出 1000 以<br>内的所有完数。 </li>
+<li>经验：一定小心数组的大小，不然很麻烦</li>
+<li>代码：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">&#x2F;&#x2F;		int num[] &#x3D; new int[100];				&#x2F;&#x2F;用数组存储完数</span><br><span class="line">		int a[] &#x3D; new int[200];					&#x2F;&#x2F;用数组存储因子</span><br><span class="line">&#x2F;&#x2F;		int k1 &#x3D; 0;								&#x2F;&#x2F;表示num数组下标</span><br><span class="line">		int count &#x3D; 0;							&#x2F;&#x2F;表示一共有多少个完数</span><br><span class="line">		for(int i &#x3D; 1;i &lt;&#x3D; 1000;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			int sum &#x3D; 0;							&#x2F;&#x2F;用于表示因子总和</span><br><span class="line">			int k &#x3D; 0;								&#x2F;&#x2F;用于表示a数组下标</span><br><span class="line">			</span><br><span class="line">			for(int j &#x3D; 1;j &lt;&#x3D; i&#x2F;2;j++)</span><br><span class="line">			&#123;</span><br><span class="line">				if(i%j &#x3D;&#x3D; 0)</span><br><span class="line">				&#123;</span><br><span class="line">					a[k] &#x3D; j;</span><br><span class="line">					k++;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			for(int u &#x3D; 0;u &lt; k;u++)</span><br><span class="line">			&#123;</span><br><span class="line">				sum +&#x3D; a[u];</span><br><span class="line">			&#125;</span><br><span class="line">			if(sum &#x3D;&#x3D; i)</span><br><span class="line">			&#123;</span><br><span class="line">				System.out.print(i+&quot;,&quot;);</span><br><span class="line">				count++;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(&quot;一共有&quot;+count+&quot;个完数&quot;);</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java自学</category>
+      </categories>
+      <tags>
+        <tag>java基础练习题</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
